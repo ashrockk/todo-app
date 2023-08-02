@@ -10,6 +10,7 @@ function App() {
       <Example />
       <br />
       <Example2 />
+      <Example3 isGoal={true} />
     </>
   );
 }
