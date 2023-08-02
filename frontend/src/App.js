@@ -5,6 +5,7 @@ import Example3 from "./components/Example3";
 import Garage from "./components/Example4";
 import Example5 from "./components/Example5";
 import Example6 from "./components/Example6";
+import Example7 from "./components/Example7";
 const cars = ["BMW", "Audi", "Mercedes"];
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Garage cars={cars} />
       <Example5 isGoal={false} />
       <Example6 />
+      <Example7 />
     </>
   );
 }
