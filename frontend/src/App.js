@@ -2,7 +2,7 @@ import Title from "./components/Title";
 function app() {
   return (
     <>
-      <Title name="ashrock" />
+      <Title name="Ashrock is learning react" />
     </>
   );
 }
