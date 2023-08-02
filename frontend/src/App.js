@@ -6,6 +6,7 @@ import Garage from "./components/Example4";
 import Example5 from "./components/Example5";
 import Example6 from "./components/Example6";
 import Hooks from "./components/Example7";
+import Car from "./components/Example8";
 const cars = ["BMW", "Audi", "Mercedes"];
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Example5 isGoal={false} />
       <Example6 />
       <Hooks />
+      <Car />
     </>
   );
 }
