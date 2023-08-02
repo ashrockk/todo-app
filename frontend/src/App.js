@@ -1,10 +1,13 @@
 import Title from "./components/Title";
-function app() {
+import Example from "./componenents/Example";
+
+function App() {
   return (
     <>
-      <Title name="Ashrock is learning react" />
+      <Title name="TO DO app" />
+      <Example />
     </>
   );
 }
 
-export default app;
+export default App;
