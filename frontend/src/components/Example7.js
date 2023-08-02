@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 
-function Example7() {
+function Hooks() {
   const [color, setColor] = useState("red");
   return (
     <>
@@ -18,4 +18,4 @@ function Example7() {
   );
 }
 
-export default Example7;
+export default Hooks;
