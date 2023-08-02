@@ -2,7 +2,7 @@
 
 //Adding events to Component
 
-export default function Example() {
+export default function Example1() {
   const shoot = () => {
     alert("Goal!");
   };
