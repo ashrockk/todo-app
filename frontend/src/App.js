@@ -8,6 +8,8 @@ import Example6 from "./components/Example6";
 import Hooks from "./components/Example7";
 import Car from "./components/Example8";
 import Timer from "./components/Example9";
+import Example10 from "./components/Example10";
+
 const cars = ["BMW", "Audi", "Mercedes"];
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       <Hooks />
       <Car />
       <Timer />
+      <Example10 />
     </>
   );
 }
