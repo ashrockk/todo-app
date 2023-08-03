@@ -1,9 +1,9 @@
 import React from "react";
-import useFetch from "./useFetch";
+import useFetch from "./hooks/useFetch";
 
 function CustomHook() {
   const { data, loading, error } = useFetch(
-    "http://localhost:3000/api/v1/todos"
+    "http://localhost:5000/api/v1/todos"
   );
   if (loading) return <div>Loading...</div>;
   if (error) return <div>{error?.message}</div>;
